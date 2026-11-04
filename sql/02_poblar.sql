@@ -1,0 +1,7 @@
+-- Programa : Sistema de gestión de librería
+-- Archivo  : 02_poblar.sql
+-- Fecha    : 02/11/2026
+-- Autor    : David Andrés Velandia Mendoza
+--
+-- PENDIENTE: datos de prueba. Puedes tomar como base libreria/database/DatosPrueba.java
+-- (5 categorías, 10 autores, 3 proveedores, 6 clientes, 13 libros y 10 ventas).

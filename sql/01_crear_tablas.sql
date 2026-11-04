@@ -1,0 +1,10 @@
+-- Programa : Sistema de gestión de librería
+-- Archivo  : 01_crear_tablas.sql
+-- Fecha    : 02/11/2026
+-- Autor    : David Andrés Velandia Mendoza
+--
+-- PENDIENTE: script de creación (MySQL 8.x o PostgreSQL).
+-- Tablas sugeridas: autor, categoria, proveedor, cliente, libro,
+-- libro_autor (tabla intermedia N:M), venta, detalle_venta.
+-- Incluir PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE (isbn, documento) y CHECK (precio > 0, stock >= 0).
+-- Las ventas NO deben tener ON DELETE CASCADE (integridad histórica).

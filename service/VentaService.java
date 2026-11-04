@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import libreria.dao.ClienteDAO;
 import libreria.dao.LibroDAO;
 import libreria.dao.VentaRepository;
@@ -67,6 +68,8 @@ public class VentaService {
         venta.setDescuento(descuento);
         return ventaRepository.guardarConDetalles(venta);
     }
+
+    public Optional<Venta> buscarPorId(int id) { return ventaRepository.buscarPorId(id); }
 
     public List<Venta> listarTodas() { return ventaRepository.listarTodos(); }
 

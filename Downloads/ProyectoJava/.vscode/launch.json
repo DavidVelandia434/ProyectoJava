@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejecutar Interfaz Gráfica AWT (Patrón Facade)",
+            "request": "launch",
+            "mainClass": "libreria.gui.MainAWT",
+            "vmArgs": "-Djava.awt.headless=false"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutar API REST (Spring Boot)",
+            "request": "launch",
+            "mainClass": "libreria.api.LibreriaApiApplication"
+        }
+    ]
+}

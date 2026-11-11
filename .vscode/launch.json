@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Lanzar Main con Supabase",
+            "request": "launch",
+            "mainClass": "libreria.Main",
+            "projectName": "ProyectoJava-main",
+            "classPaths": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/lib/postgresql-42.7.14.jar"
+            ],
+            "env": {
+                "LIBRERIA_DB_URL": "jdbc:postgresql://db.xuzytwhjltrkgbgabpzy.supabase.co:5432/postgres?sslmode=require",
+                "LIBRERIA_DB_USER": "postgres",
+                "LIBRERIA_DB_PASSWORD": "Nintendonosejuegaseemula"
+            }
+        }
+    ]
+}

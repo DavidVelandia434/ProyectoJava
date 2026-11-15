@@ -1,18 +1,18 @@
-# 📚 Sistema de Gestión de Librería
+Sistema de Gestión de Librería
 
 Aplicación en **Java 17** para administrar una librería: catálogo de libros, autores, categorías, proveedores, clientes, ventas y reportes. El mismo sistema se puede usar de tres formas:
 
 | Interfaz | Descripción |
 |---|---|
-| 🌐 **API REST** | Servicio web con Spring Boot (`/api/...`) para consumir desde Postman, `curl` o cualquier cliente. |
-| 🖥️ **Interfaz gráfica (AWT)** | Ventanas de escritorio construidas con AWT, conectadas al sistema mediante el patrón **Facade**. |
-| ⌨️ **Consola** | Menú interactivo por terminal. |
+| **API REST** | Servicio web con Spring Boot (`/api/...`) para consumir desde Postman, `curl` o cualquier cliente. |
+| **Interfaz gráfica (AWT)** | Ventanas de escritorio construidas con AWT, conectadas al sistema mediante el patrón **Facade**. |
+| **Consola** | Menú interactivo por terminal. |
 
 Los datos se guardan en **PostgreSQL (Supabase)**. Si la base de datos no está disponible, el sistema arranca automáticamente en **modo memoria** con datos de prueba, así que se puede probar sin configurar nada.
 
 ---
 
-## ✨ Características
+## Características
 
 - CRUD de **libros, autores, categorías, proveedores y clientes**.
 - Libros con **varios autores** (relación muchos a muchos).
@@ -25,7 +25,7 @@ Los datos se guardan en **PostgreSQL (Supabase)**. Si la base de datos no está 
 
 ---
 
-## 🧰 Tecnologías
+## Tecnologías
 
 | Tecnología | Uso |
 |---|---|
@@ -39,7 +39,7 @@ Los datos se guardan en **PostgreSQL (Supabase)**. Si la base de datos no está 
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 El proyecto está organizado por capas:
 
@@ -77,7 +77,7 @@ ProyectoJava/
 
 ---
 
-## 🗄️ Base de datos
+## Base de datos
 
 Tablas del sistema:
 
@@ -94,7 +94,7 @@ Tablas del sistema:
 
 ---
 
-## ✅ Requisitos previos
+## Requisitos previos
 
 - **JDK 17** o superior → `java -version`
 - **Apache Maven 3.8+** → `mvn -version`
@@ -104,7 +104,7 @@ Tablas del sistema:
 
 ---
 
-## ⚙️ Instalación
+##  Instalación
 
 ### 1. Clonar el repositorio
 
@@ -167,7 +167,7 @@ $env:LIBRERIA_DB_PASSWORD = "tu_contraseña"
 
 ---
 
-## ▶️ Instructivo de uso
+## Instructivo de uso
 
 ### Opción A: API REST
 
@@ -438,13 +438,3 @@ Para desactivar esta carga, usa `libreria.datos-prueba=false`. Con PostgreSQL, l
   src/resources/application-local.properties
   ```
 
----
-
-## 👤 Autor
-
-**David Andrés Velandia Mendoza**
-GitHub: [@DavidVelandia434](https://github.com/DavidVelandia434)
-
-## 📄 Licencia
-
-Proyecto de carácter académico.
